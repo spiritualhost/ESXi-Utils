@@ -51,3 +51,15 @@
 - Display the IP address of a VM
 
 `vim-cmd vmsvc/get.guest {{vmID}} | grep -m 1 "ipAddress = \"`
+
+Additional commands under vim-cmd:
+
+- combinersvc/
+- hostsvc/
+- proxysvc/
+- vimsvc/
+- hbrsvc/
+- internalsvc/
+- solo/
+
+Run `vim-cmd help {{command}}` for any of the above to get more information on available subcommands.
